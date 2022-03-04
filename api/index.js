@@ -20,10 +20,10 @@ const bodyParser = require("body-parser");
 //app.use(bodyParser.urlencoded({ extended: true }));
 app.get("/", (req, res) => {
   res.send("Hello World(*'▽')");
-  res.json({ message: "こちらはルートパスです(V)o￥o(V)" });
 });
 app.get("/api/get/", (req, res) => {
-  res.send("Hello World(*'▽')/api/getからやで");
+  //res.send("Hello World(*'▽')/api/getからやで");
+  res.json({ message: "こちらはルートパスです(V)o￥o(V)" });
 });
 app.use(bodyParser.json());
 app.post("/api/post", (req, res) => {
