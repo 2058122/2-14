@@ -1,4 +1,3 @@
-/*
 const express = require("express");
 const app = express();
 const PORT = process.env.PORT || 3000;
@@ -10,9 +9,8 @@ app.get("/", function (req, res) {
 // app.listen(3000, function () {
 // });
 process.env.NOW_REGION ? (module.exports = app) : app.listen(PORT); // Vercel用
-*/
 
-//POSTだけできない
+/*
 const express = require("express");
 const app = express();
 //const PORT = process.env.PORT || 3000; //Heroku用
@@ -35,3 +33,4 @@ app.listen(3000, () => {
   console.log("Application started");
 });
 //process.env.NOW_REGION ? (module.express = app) : app.listen(PORT); //Heroku用
+*/
